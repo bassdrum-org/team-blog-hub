@@ -39,5 +39,19 @@ export const members: Member[] = [
     twitterUsername: "soundkitchen",
     githubUsername: "soundkitchen",
     websiteUrl: "https://izukawa.org",
+  },
+  {
+    id: "wtshm",
+    name: "Kenta Watashima",
+    role: "Programmer / Tech Director",
+    bio: "",
+    avatarSrc: "/avatars/wtshm.jpg",
+    sources: [
+      "https://zenn.dev/wtshm/feed?include_scraps=true",
+      "https://qiita.com/wtshm/feed.atom"
+    ],
+    twitterUsername: "wtshm",
+    githubUsername: "wtshm",
+    websiteUrl: "https://achr.me",
   }
 ];
