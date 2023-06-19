@@ -1,8 +1,9 @@
 import { Member } from "@src/types";
 
 export const members: Member[] = [
+  // BASSDRUM 公式は一番上にしておく
   {
-    id: "BASSDRUM",
+    id: "bassdrum",
     name: "BASSDRUM inc.",
     role: "Company",
     bio: "",
@@ -12,9 +13,10 @@ export const members: Member[] = [
     ],
     twitterUsername: "BASSDRUM_org",
     githubUsername: "bassdrum-org",
+    websiteUrl: "https://bassdrum.org/",
   },
   {
-    id: "ToyoshiMorioka",
+    id: "toyoshimorioka",
     name: "Toyoshi Morioka",
     role: "Technical Director",
     bio: "",
@@ -26,19 +28,6 @@ export const members: Member[] = [
     ],
     twitterUsername: "mogamogamachine",
     githubUsername: "ToyoshiMorioka",
-  },
-  {
-    id: "hige",
-    name: "Takanobu Izukawa",
-    role: "System Engineer",
-    bio: "",
-    avatarSrc: "/avatars/hige.png",
-    sources: [
-      "https://zenn.dev/hige/feed?include_scraps=true"
-    ],
-    twitterUsername: "soundkitchen",
-    githubUsername: "soundkitchen",
-    websiteUrl: "https://izukawa.org",
   },
   {
     id: "wtshm",
@@ -53,5 +42,18 @@ export const members: Member[] = [
     twitterUsername: "wtshm",
     githubUsername: "wtshm",
     websiteUrl: "https://achr.me",
-  }
+  },
+  {
+    id: "hige",
+    name: "Takanobu Izukawa",
+    role: "System Engineer",
+    bio: "",
+    avatarSrc: "/avatars/hige.png",
+    sources: [
+      "https://zenn.dev/hige/feed?include_scraps=true"
+    ],
+    twitterUsername: "soundkitchen",
+    githubUsername: "soundkitchen",
+    websiteUrl: "https://izukawa.org",
+  },
 ];
