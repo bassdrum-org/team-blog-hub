@@ -18,7 +18,7 @@ export const members: Member[] = [
   {
     id: "toyoshimorioka",
     name: "Toyoshi Morioka",
-    role: "Technical Director",
+    role: "Tech Director",
     bio: "",
     avatarSrc: "/avatars/toyoshimorioka.jpg",
     sources: [
@@ -46,7 +46,7 @@ export const members: Member[] = [
   {
     id: "junito",
     name: "Jun Ito",
-    role: "Technical Director",
+    role: "Tech Director",
     bio: "",
     avatarSrc: "/avatars/junito.jpg",
     sources: [
@@ -65,5 +65,19 @@ export const members: Member[] = [
     twitterUsername: "soundkitchen",
     githubUsername: "soundkitchen",
     websiteUrl: "https://izukawa.org",
+  },
+    {
+    id: "qanta",
+    name: "Qanta Shimizu",
+    role: "Tech Director",
+    bio: "",
+    avatarSrc: "/avatars/qanta_s.jpg",
+    sources: [
+        "https://note.com/qantasmz/m/mb2a3dcf555d5/rss",
+        "https://qiita-feed.saqoosha.workers.dev/qantasmz"
+    ],
+    twitterUsername: "qanta",
+    githubUsername: "qantasmz",
+    websiteUrl: "http://qanta.jp",
   },
 ];
