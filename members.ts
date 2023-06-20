@@ -44,6 +44,16 @@ export const members: Member[] = [
     websiteUrl: "https://achr.me",
   },
   {
+    id: "junito",
+    name: "Jun Ito",
+    role: "Technical Director",
+    bio: "",
+    avatarSrc: "/avatars/junito.jpg",
+    sources: [
+        "https://note.com/jun_ito_bd/rss",
+    ],
+  },
+  {
     id: "hige",
     name: "Takanobu Izukawa",
     role: "System Engineer",
